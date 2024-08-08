@@ -10,23 +10,6 @@ const Home = () => {
     { value: 'orange', label: 'Orange' },
   ];
 
-  // const groupedOptions = [
-  //   {
-  //     label: 'Fruits',
-  //     options: [
-  //       { value: 'apple', label: 'Apple' },
-  //       { value: 'banana', label: 'Banana' },
-  //     ],
-  //   },
-  //   {
-  //     label: 'Citrus',
-  //     options: [
-  //       { value: 'orange', label: 'Orange' },
-  //       { value: 'lemon', label: 'Lemon' },
-  //     ],
-  //   },
-  // ];
-
   const handleChange = (value) => {
     setSelectedValue(value);
     console.log('Selected value:', value);
