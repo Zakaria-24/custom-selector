@@ -21,7 +21,7 @@
     border: none;
     outline: none;
   }
-  #title {
+  .title {
     margin-top: 5rem;
     margin-left: 520px;
   }

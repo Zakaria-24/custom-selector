@@ -39,7 +39,7 @@ const Home = () => {
 
   return (
     <div>
-      <h1 id="title">Custom Select Component Demo</h1>
+      <h1 className="title">Custom Select Component Demo</h1>
       <CustomSelector
         isClearable={true}
         isSearchable={true}
